@@ -43,7 +43,7 @@ A modern, professional LaTeX CV/Resume template — perfect for academic, resear
 
 ## 🖼 Preview
 <p>
-  <img src="Assets/Preview.jpg" alt="Preview" width="500"/>
+  <img src="Assets/Preview.png" alt="Preview" width="500"/>
 </p>
 
 ## 📜 License
