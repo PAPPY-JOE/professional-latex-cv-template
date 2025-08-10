@@ -1,0 +1,156 @@
+%-------------------------
+% Resume in Latex
+% Author : Joseph Fatoye
+% Website: https://pappy-joe.github.io/engineering
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{[Your Website URL]}{\Large [Your Name]}} & \href{mailto:[your.email@example.com]}{[your.email@example.com]}\\
+  {\href{[Your Website URL]}{Website }} \quad {\href{[Your LinkedIn URL]}{LinkedIn }} & [Your Phone Number] \\
+\end{tabular*}
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart 
+    \resumeSubheading
+      {B.Eng., [Your Degree]}{}
+      {[Your University], [City, Country]}{[Month. Year]} 
+      \begin{itemize}
+          \item Your Honors [GPA / Ranking]
+      \end{itemize}  
+    \resumeSubheading
+      {B.Eng., [Previous Degree or Transfer Info]}{}
+      {[Previous University], [City, Country]}{[Month. Year]} 
+  \resumeSubHeadingListEnd
+
+%-----------AWARDS, HONORS & GRANTS-----------------
+\section{Awards, Honors \& Grants}
+  \resumeSubHeadingListStart
+    \resumeSubItem{[Award Title]}{[Award Description / Reason]}
+    \resumeSubItem{[Award Title]}{[Award Description / Reason]}
+  \resumeSubHeadingListEnd
+
+%-----------PROFESSIONAL EXPERIENCE-----------------
+\section{Professional Experience}
+  \resumeSubHeadingListStart
+    \resumeSubItem{[Job Title] — [Company], [City, Country]}{[Brief description of responsibilities and achievements]. ([Start Month, Year] -- [End Month, Year])}
+    \resumeSubItem{[Job Title] — [Company], [City, Country]}{[Brief description of responsibilities and achievements]. ([Start Month, Year] -- [End Month, Year])}
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeSubItem{\href{[Project URL]}{[Project Name]}}
+      {[Brief project description and results/impact]}
+    \resumeSubItem{\href{[Project URL]}{[Project Name]}}
+      {[Brief project description and results/impact]}
+  \resumeSubHeadingListEnd
+
+%-----------PUBLICATIONS-----------------
+\section{Publications}
+  \resumeSubHeadingListStart 
+    \resumeSubItem{\href{[Publication URL]}{[Publication Title]}}
+      {[Conference/Journal Name, Year]}
+  \resumeSubHeadingListEnd
+
+%-----------PROFESSIONAL SOCIETIES-----------------
+\section{Professional Societies}
+  \resumeSubHeadingListStart
+    \resumeSubItem{[Society Name]}{[Membership Duration or Role]}
+    \resumeSubItem{[Society Name]}{[Membership Duration or Role]}
+  \resumeSubHeadingListEnd
+
+%-----------LEADERSHIP AND SERVICE-----------------
+\section{Leadership \& Service}
+  \resumeSubHeadingListStart
+    \resumeSubItem{[Position Title], [Organization]}{[Brief description]. ([Start–End Year])}
+    \resumeSubItem{[Position Title], [Organization]}{[Brief description]. ([Start–End Year])}
+  \resumeSubHeadingListEnd
+
+%--------SKILLS------------
+\section{Skills}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Programming \& Scripting}{[e.g., Python, C++, JavaScript]}
+    \resumeSubItem{Embedded \& Robotics Systems}{[e.g., Arduino, ESP32, Raspberry Pi]}
+    \resumeSubItem{Computer Vision \& Machine Learning}{[e.g., OpenCV, TensorFlow]}
+    \resumeSubItem{Software Development}{[e.g., React.js, Next.js]}
+    \resumeSubItem{CAD \& Prototyping}{[e.g., SolidWorks, AutoCAD]}
+    \resumeSubItem{Languages}{[e.g., English (Fluent), French (Intermediate)]}
+  \resumeSubHeadingListEnd
+
+%--------LINKS------------
+\section{Links}
+  \resumeSubHeadingListStart
+    \resumeSubItem{LinkedIn}{[Your LinkedIn URL]}  
+    \resumeSubItem{Portfolio}{[Your Portfolio/Website URL]}
+    \resumeSubItem{GitHub}{[Your GitHub URL]}
+  \resumeSubHeadingListEnd
+
+%-------------------------------------------
+\end{document}
