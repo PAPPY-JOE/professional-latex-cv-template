@@ -2,7 +2,7 @@
 A modern, professional LaTeX CV/Resume template — perfect for academic, research, and industry applications. Works with Overleaf.
 
 <p>
-  <img src="Preview.jpg" alt="Preview" width="500" />
+  <img src="Preview.jpg" alt="Preview" width="750"/>
 </p>
 
 📺 **Watch the tutorial:** [How to Create a Professional CV in 5 Minutes!](https://youtu.be/ivFiIMXyOwc)  
