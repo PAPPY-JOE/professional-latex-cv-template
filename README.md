@@ -22,7 +22,8 @@ A modern, professional LaTeX CV/Resume template — perfect for academic, resear
 - `main.tex` – The main LaTeX source file  
 - `cv.pdf` – Example generated CV  
 - `README.md` – This file  
-- `assets/preview.png` – Preview image of the CV  
+- `Preview.jpg` – Preview image of the CV  
+- `MY INFORMATION.txt` – Dummy Personalized Information  
 
 ---
 
