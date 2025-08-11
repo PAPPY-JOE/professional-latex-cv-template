@@ -1,7 +1,6 @@
 # Professional LaTeX CV Template  
 A modern, professional LaTeX CV/Resume template — perfect for academic, research, and industry applications. Works with Overleaf.
 
-## 🖼 Preview
 <p>
   <img src="Preview.jpg" alt="Preview" width="500" />
 </p>
