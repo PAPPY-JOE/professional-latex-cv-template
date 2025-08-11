@@ -5,6 +5,11 @@ A modern, professional LaTeX CV/Resume template — perfect for academic, resear
 
 ---
 
+## 🖼 Preview
+<p>
+  <img src="Assets/Preview.png" alt="Preview" width="500"/>
+</p>
+
 ## ✨ Features  
 - Professional single-page customizable layout  
 - Easy-to-edit sections for Education, Experience, Skills, Awards, and more  
@@ -40,11 +45,6 @@ A modern, professional LaTeX CV/Resume template — perfect for academic, resear
   ```bash
   pdflatex main.tex
   ```
-
-## 🖼 Preview
-<p>
-  <img src="Assets/Preview.png" alt="Preview" width="500"/>
-</p>
 
 ## 📜 License
 This template is released under the MIT License — you are free to use, modify, and distribute with attribution.
