@@ -5,7 +5,7 @@ A modern, professional LaTeX CV/Resume template — perfect for academic, resear
   <img src="Preview.jpg" alt="Preview" width="750"/>
 </p>
 
-📺 **Watch the tutorial:** [How to Create a Professional CV in 5 Minutes!](https://youtu.be/1T8WNYs63_M)  
+📺 **Watch the tutorial:** [How to Create a Professional CV in 5 Minutes!](https://youtu.be/oqDIlbIXM6k)  
 
 ---
 
